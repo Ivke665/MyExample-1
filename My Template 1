@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+<link rel="stylesheet" href="codepen.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+<style>
+header {
+  text-align: center;
+  font-family: "Viner Hand ITC Regular";
+  margin: 20px;
+}
+nav {
+  height: 50px;
+  max-width: 100% ;
+  padding: 40px;
+}
+
+#demo1 {
+	font: 20px "Tempus Sans ITC Regular" ;
+}
+#vezba1 {
+	float: right;
+	width: 300px;
+	height: 578px;
+	border: 1px solid black;
+	margin-right: 10px;
+	margin-top: 0px;
+}
+#pv {
+	margin-top: 360px;
+	position: relative;
+	
+}
+#pv1, #pv2, #pv3, #pv4, #pv5, #pv6  {
+	text-align: center;	
+	width: 220px;
+	height: 30px;
+	border: 1px solid black;
+	margin-left: 10px;	
+}
+#main {
+	border: 1px solid black;
+	margin-top: -250px;
+	position: relative;
+	margin-left: 250px;
+	width: 690px;
+	height: 250px;
+}
+#vf {
+	border: 1px solid black;
+	position: absolute;
+	width: 100%;
+	padding: 65px;
+	clear: both;
+	margin-top: 50px;
+}
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
+}
+</style>
+
+<body>
+<!-------------------header kao jumbotron------------------->
+<header>
+  <h1>&copy;Ivan Stojanovic Style </h1>
+  </header>
+<!-------------------navigation----------------------------->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <form class="form-inline" action="/action_page.php">
+    <input class="form-control" type="text" placeholder="Search">
+    <button class="btn btn-success" type="submit">Search</button>
+  </form>
+</nav>
+<!-----------------------sad malo Aside--------------------->
+<aside id="vezba1">
+<hr>
+	<p id="v1"></p><br>
+	<p id="v2"></p>
+	<p id="v3"></p>
+	<p id="v4"></p>
+<hr>
+	
+	<p id="v5"></p>
+		
+</aside>
+<!------------------------Tolko-------------------------->
+		<div id="pv">
+	<p id="pv1"><br></p>
+	<p id="pv2"><br></p>
+	<p id="pv3"><br></p>
+	<p id="pv4"><br></p>
+	<p id="pv5"><br></p>
+	<p id="pv6"><br></p>
+		</div>
+		
+<!----------------------neki main nesto-------------------->
+
+	<div id="main">
+	</div>
+	
+<!------------------------footer---------------------------->
+
+<footer id="vf">
+</footer>
